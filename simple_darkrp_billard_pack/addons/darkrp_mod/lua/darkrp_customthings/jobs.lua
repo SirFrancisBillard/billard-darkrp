@@ -106,7 +106,7 @@ TEAM_SWAT = DarkRP.createJob("SWAT", {
     salary = 400,
     admin = 0,
     vote = true,
-    hasLicense = false,
+    hasLicense = true,
     category = "Civil Protection",
 })
 
@@ -178,7 +178,7 @@ TEAM_GUARD = DarkRP.createJob("Guard", {
     salary = 800,
     admin = 0,
     vote = false,
-    hasLicense = false,
+    hasLicense = true,
     category = "Citizens",
 })
 
@@ -267,13 +267,13 @@ TEAM_LAWYER = DarkRP.createJob("Lawyer", {
     model = "models/player/gman_high.mdl",
     description = [[Let people out of jail for money.
 	You may work on your own or as part of a group]],
-    weapons = {"unarrest_baton"
+    weapons = {"unarrest_baton"},
     command = "lawyer",
     max = 2,
     salary = 400,
     admin = 0,
     vote = false,
-    hasLicense = false,
+    hasLicense = true,
     candemote = false,
     category = "Citizens",
 })
@@ -342,7 +342,7 @@ TEAM_VAULTROBBER = DarkRP.createJob("Vault Robber", {
     vote = false,
     hasLicense = false,
     candemote = false,
-    category = "Citizens",
+    category = "Vault",
 })
 
 TEAM_VAULTGUARD = DarkRP.createJob("Vault Guard", {
@@ -355,8 +355,8 @@ TEAM_VAULTGUARD = DarkRP.createJob("Vault Guard", {
     salary = 1200,
     admin = 0,
     vote = false,
-    hasLicense = false,
-    category = "Citizens",
+    hasLicense = true,
+    category = "Vault",
 })
 
 --[[---------------------------------------------------------------------------
@@ -374,7 +374,7 @@ TEAM_RAINLEADER = DarkRP.createJob("Rain Gang Leader", {
     max = 1,
     salary = 200,
     admin = 0,
-    vote = false,
+    vote = true,
     hasLicense = false,
     candemote = false,
     category = "Gangsters",
@@ -407,7 +407,7 @@ TEAM_SNOWLEADER = DarkRP.createJob("Snow Gang Leader", {
     max = 1,
     salary = 200,
     admin = 0,
-    vote = false,
+    vote = true,
     hasLicense = false,
     candemote = false,
     category = "Gangsters",
