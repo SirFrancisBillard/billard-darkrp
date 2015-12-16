@@ -18,7 +18,7 @@ end
  
 function ENT:Use( activator, caller )
 	local PlayerHealth = activator:Health()
-	if activator:Health() > 60 then
+	if PlayerHealth > 60 then
 		self:Remove()
 		activator:SetHealth( 100 )
 		return end
