@@ -231,7 +231,7 @@ TEAM_SUPERHOBO = DarkRP.createJob("Super Hobo", {
 
 TEAM_DJ = DarkRP.createJob("DJ", {
     color = Color(0, 150, 255, 255),
-    model = "models/player/corpse1.mdl",
+    model = "models/player/barney.mdl",
     description = [[Play music for money.
 	You can make a club or just hang out in the streets.
 	You are allowed to micspam, but do not follow people around to annoy them.]],
