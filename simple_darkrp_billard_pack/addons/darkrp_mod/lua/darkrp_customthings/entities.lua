@@ -19,7 +19,7 @@ Add entities under the following line:
 DarkRP.createEntity("Topaz Printer", {
 	ent = "topaz_money_printer",
 	model = "models/props_c17/consolebox01a.mdl",
-	price = 1000,
+	price = 800,
 	max = 4,
 	cmd = "buytopazprinter"
 })
@@ -27,7 +27,7 @@ DarkRP.createEntity("Topaz Printer", {
 DarkRP.createEntity("Amethyst Printer", {
 	ent = "amethyst_money_printer",
 	model = "models/props_c17/consolebox01a.mdl",
-	price = 1500,
+	price = 1000,
 	max = 4,
 	cmd = "buyamethystprinter"
 })
@@ -35,7 +35,7 @@ DarkRP.createEntity("Amethyst Printer", {
 DarkRP.createEntity("Emerald Printer", {
 	ent = "emerald_money_printer",
 	model = "models/props_c17/consolebox01a.mdl",
-	price = 2500,
+	price = 1500,
 	max = 4,
 	cmd = "buyemeraldprinter"
 })
@@ -43,7 +43,7 @@ DarkRP.createEntity("Emerald Printer", {
 DarkRP.createEntity("Ruby Printer", {
 	ent = "ruby_money_printer",
 	model = "models/props_c17/consolebox01a.mdl",
-	price = 5000,
+	price = 2500,
 	max = 4,
 	cmd = "buyrubyprinter"
 })
@@ -51,7 +51,7 @@ DarkRP.createEntity("Ruby Printer", {
 DarkRP.createEntity("Sapphire Printer", {
 	ent = "sapphire_money_printer",
 	model = "models/props_c17/consolebox01a.mdl",
-	price = 7500,
+	price = 5000,
 	max = 4,
 	cmd = "buysapphireprinter"
 })
@@ -107,7 +107,7 @@ DarkRP.createEntity("Steroids", {
 DarkRP.createEntity("Book of Health", {
 	ent = "item_book_health",
 	model = "models/props_lab/bindergreen.mdl",
-	price = 40000,
+	price = 20000,
 	max = 2,
 	allowed = {TEAM_SCHOLAR},
 	cmd = "buybookhealth"
@@ -116,7 +116,7 @@ DarkRP.createEntity("Book of Health", {
 DarkRP.createEntity("Book of Armor", {
 	ent = "item_book_armor",
 	model = "models/props_lab/binderblue.mdl",
-	price = 60000,
+	price = 30000,
 	max = 2,
 	allowed = {TEAM_SCHOLAR},
 	cmd = "buybookarmor"
@@ -125,7 +125,7 @@ DarkRP.createEntity("Book of Armor", {
 DarkRP.createEntity("Book of 1337", {
 	ent = "item_book_elite",
 	model = "models/props_lab/binderredlabel.mdl",
-	price = 120000,
+	price = 60000,
 	max = 2,
 	allowed = {TEAM_SCHOLAR},
 	cmd = "buybookelite"
@@ -136,7 +136,7 @@ DarkRP.createEntity("Book of 1337", {
 DarkRP.createEntity("Morphine", {
 	ent = "item_healthvial",
 	model = "models/healthvial.mdl",
-	price = 2000,
+	price = 800,
 	max = 6,
 	allowed = {TEAM_DOCTOR},
 	cmd = "buymorphine"
@@ -145,7 +145,7 @@ DarkRP.createEntity("Morphine", {
 DarkRP.createEntity("Steroids", {
 	ent = "item_battery",
 	model = "models/Items/battery.mdl",
-	price = 2500,
+	price = 1000,
 	max = 6,
 	allowed = {TEAM_DOCTOR},
 	cmd = "buysteroids"
@@ -154,7 +154,7 @@ DarkRP.createEntity("Steroids", {
 DarkRP.createEntity("First Aid Kit", {
 	ent = "item_healthkit",
 	model = "models/Items/HealthKit.mdl",
-	price = 6000,
+	price = 2000,
 	max = 6,
 	allowed = {TEAM_DOCTOR},
 	cmd = "buyfirstaidkit"
@@ -163,7 +163,7 @@ DarkRP.createEntity("First Aid Kit", {
 DarkRP.createEntity("Genetically Modified Chicken", {
 	ent = "npc_headcrab",
 	model = "models/headcrabclassic.mdl",
-	price = 12000,
+	price = 8000,
 	max = 2,
 	allowed = {TEAM_DOCTOR},
 	cmd = "buygmochicken"
@@ -174,7 +174,7 @@ DarkRP.createEntity("Genetically Modified Chicken", {
 DarkRP.createEntity("Bass Machine", {
 	ent = "prop_thumper",
 	model = "models/props_combine/combinethumper002.mdl",
-	price = 4000,
+	price = 1200,
 	max = 1,
 	allowed = {TEAM_DJ},
 	cmd = "buybassmachine"
