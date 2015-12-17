@@ -66,37 +66,48 @@ DarkRP.createAmmoType("smg1", {
 Add new ammo types under the next line!
 ---------------------------------------------------------------------------]]
 
-DarkRP.createAmmoType("357", {
-	name = "357 Ammo",
-	model = "models/Items/357ammobox.mdl",
-	price = 60,
-	amountGiven = 20
+DarkRP.createAmmoType("RPG_Round", {
+    name = "Rockets",
+    model = "models/weapons/w_missile_closed.mdl",
+    price = 800,
+    amountGiven = 2,
 })
+
+DarkRP.createAmmoType("AR2AltFire", {
+    name = "Pulse Bombs",
+    model = "models/Items/combine_rifle_ammo01.mdl",
+    price = 500,
+    amountGiven = 2,
+})
+
 DarkRP.createAmmoType("AR2", {
-	name = "Rifle Ammo",
-	model = "models/Items/BoxMRounds.mdl",
-	price = 60,
-	amountGiven = 30
+    name = "Advanced Rifle Ammo",
+    model = "models/Items/combine_rifle_cartridge01.mdl",
+    price = 100,
+    amountGiven = 30,
 })
-DarkRP.createAmmoType("Buckshot", {
-	name = "Shotgun Ammo",
-	model = "models/Items/BoxBuckshot.mdl",
-	price = 40,
-	amountGiven = 8
+
+DarkRP.createAmmoType("357", {
+    name = "Magnum Ammo",
+    model = "models/Items/357ammo.mdl",
+    price = 60,
+    amountGiven = 12,
 })
-DarkRP.createAmmoType("Pistol", {
-DarkRP.createAmmoType("Pistol", {
-	name = "Pistol Ammo",
-	model = "models/Items/BoxSRounds.mdl",
-	price = 20,
-	amountGiven = 20
+
+DarkRP.createAmmoType("XBowBolt", {
+    name = "Crossbow Bolts",
+    model = "models/Items/CrossbowRounds.mdl",
+    price = 120,
+    amountGiven = 6,
 })
-DarkRP.createAmmoType("SMG1", {
-	name = "SMG Ammo",
-	model = "models/Items/BoxMRounds.mdl",
-	price = 40,
-	amountGiven = 60
+
+DarkRP.createAmmoType("SMG1_Grenade", {
+    name = "SMG Grenades",
+    model = "models/Items/AR2_Grenade.mdl",
+    price = 1000,
+    amountGiven = 2,
 })
+
 DarkRP.createAmmoType("SniperPenetratedRound", {
 	name = "Sniper Ammo",
 	model = "models/Items/BoxMRounds.mdl",
