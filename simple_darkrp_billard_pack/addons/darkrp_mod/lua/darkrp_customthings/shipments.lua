@@ -234,17 +234,6 @@ noship = false,
 allowed = {TEAM_BLACKMARKET}
 })
 
-DarkRP.createShipment("Bugbait", {
-model = "models/weapons/w_bugbait.mdl",
-entity = "weapon_bugbait",
-price = 50,
-amount = 10,
-seperate = false,
-pricesep = nil,
-noship = false,
-allowed = {TEAM_HOBO}
-})
-
 --[[ BROKEN AT THE MOMENT
 DarkRP.createShipment("Taser", {
 model = "models/weapons/w_pistol.mdl",
