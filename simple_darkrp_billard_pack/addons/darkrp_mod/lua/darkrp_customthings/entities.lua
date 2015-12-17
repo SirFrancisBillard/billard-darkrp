@@ -160,6 +160,15 @@ DarkRP.createEntity("First Aid Kit", {
 	cmd = "buyfirstaidkit"
 })
 
+DarkRP.createEntity("Genetically Modified Chicken", {
+	ent = "npc_headcrab",
+	model = "models/headcrabclassic.mdl",
+	price = 12000,
+	max = 2,
+	allowed = {TEAM_DOCTOR},
+	cmd = "buygmochicken"
+})
+
 --DJ ITEMS
 
 DarkRP.createEntity("Bass Machine", {
