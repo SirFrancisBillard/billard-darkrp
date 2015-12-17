@@ -53,8 +53,8 @@ TEAM_DOCTOR = DarkRP.createJob("Doctor", {
     model = {"models/player/kleiner.mdl"},
     description = [[You are a doctor.
 	You heal people and can assist during raids.
-    Left click with the Medical Kit to heal other players.
-    Right click with the Medical Kit to heal yourself.]],
+    	Left click with the Medical Kit to heal other players.
+    	Right click with the Medical Kit to heal yourself.]],
     weapons = {"med_kit"},
     command = "doctor",
     max = 4,
@@ -384,7 +384,7 @@ TEAM_RAINMEMBER = DarkRP.createJob("Rain Gang Member", {
     color = Color(50, 0, 0, 255),
     model = {"models/player/hostage/hostage_02.mdl", "models/player/hostage/hostage_03.mdl"},
     description = [[You must fight the Snow Gang and win control over the city.
-	You must kill in privte, killing in public is considered RDM.]],
+	You must kill in private, killing in public is considered RDM.]],
     weapons = {"weapon_mac102"},
     command = "rainmember",
     max = 3,
@@ -417,7 +417,7 @@ TEAM_SNOWMEMBER = DarkRP.createJob("Snow Gang Member", {
     color = Color(10, 10, 10, 255),
     model = {"models/player/hostage/hostage_01.mdl", "models/player/hostage/hostage_04.mdl"},
     description = [[You must fight the Rain Gang and win control over the city.
-	You must kill in privte, killing in public is considered RDM.]],
+	You must kill in private, killing in public is considered RDM.]],
     weapons = {"weapon_mac102"},
     command = "snowmember",
     max = 3,
