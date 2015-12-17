@@ -56,6 +56,7 @@ DarkRP.createEntity("Sapphire Printer", {
 	cmd = "buysapphireprinter"
 })
 
+--[[
 DarkRP.createEntity("Kevlar", {
 	ent = "item_kevlar",
 	model = "models/props_c17/SuitCase001a.mdl",
@@ -99,6 +100,7 @@ DarkRP.createEntity("Steroids", {
 	allowed = {TEAM_DOCTOR},
 	cmd = "buysteroids"
 })
+]]
 
 --BOOKS
 
@@ -127,4 +129,33 @@ DarkRP.createEntity("Book of 1337", {
 	max = 2,
 	allowed = {TEAM_SCHOLAR},
 	cmd = "buybookelite"
+})
+
+--TEMPORARY DOCTOR ITEMS
+
+DarkRP.createEntity("Morphine", {
+	ent = "item_healthvial",
+	model = "models/healthvial.mdl",
+	price = 2000,
+	max = 6,
+	allowed = {TEAM_DOCTOR},
+	cmd = "buymorphine"
+})
+
+DarkRP.createEntity("Steroids", {
+	ent = "item_battery",
+	model = "models/Items/battery.mdl",
+	price = 2500,
+	max = 6,
+	allowed = {TEAM_DOCTOR},
+	cmd = "buysteroids"
+})
+
+DarkRP.createEntity("First Aid Kit", {
+	ent = "item_healthkit",
+	model = "models/Items/HealthKit.mdl",
+	price = 6000,
+	max = 6,
+	allowed = {TEAM_DOCTOR},
+	cmd = "buyfirstaidkit"
 })
