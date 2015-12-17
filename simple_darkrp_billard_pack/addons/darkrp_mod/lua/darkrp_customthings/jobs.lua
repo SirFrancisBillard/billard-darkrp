@@ -262,18 +262,22 @@ TEAM_MECHANIC = DarkRP.createJob("Mechanic", {
     category = "Citizens",
 })
 
-TEAM_LAWYER = DarkRP.createJob("Lawyer", {
+TEAM_SCHOLAR = DarkRP.createJob("Scholar", {
     color = Color(0, 150, 255, 255),
     model = "models/player/gman_high.mdl",
-    description = [[Let people out of jail for money.
-	You may work on your own or as part of a group]],
+    description = [[You are a scholar.
+    	You went to Law School.
+    	Let people out of jail for money.
+	You may work on your own or as part of a group.
+	You also sell books to give people buffs during combat.
+	You earn more per day due to your degree.]],
     weapons = {"unarrest_baton"},
-    command = "lawyer",
-    max = 2,
+    command = "scholar",
+    max = 4,
     salary = 400,
     admin = 0,
     vote = false,
-    hasLicense = true,
+    hasLicense = false,
     candemote = false,
     category = "Citizens",
 })
