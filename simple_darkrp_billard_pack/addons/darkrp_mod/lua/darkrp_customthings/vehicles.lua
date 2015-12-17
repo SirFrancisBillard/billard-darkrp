@@ -14,11 +14,11 @@ Add vehicles under the following line:
 DarkRP.createVehicle({
 	name = "Airboat",
 	model = "models/airboat.mdl",
-	price = 2500,
+	price = 12500,
 })
 
 DarkRP.createVehicle({
 	name = "Jeep",
 	model = "models/buggy.mdl",
-	price = 5000,
+	price = 25000,
 })
