@@ -99,3 +99,32 @@ DarkRP.createEntity("Steroids", {
 	allowed = {TEAM_DOCTOR},
 	cmd = "buysteroids"
 })
+
+--BOOKS
+
+DarkRP.createEntity("Book of Health", {
+	ent = "item_book_health",
+	model = "models/props_lab/bindergreen.mdl",
+	price = 40000,
+	max = 2,
+	allowed = {TEAM_SCHOLAR},
+	cmd = "buybookhealth"
+})
+
+DarkRP.createEntity("Book of Armor", {
+	ent = "item_book_armor",
+	model = "models/props_lab/binderblue.mdl",
+	price = 60000,
+	max = 2,
+	allowed = {TEAM_SCHOLAR},
+	cmd = "buybookarmor"
+})
+
+DarkRP.createEntity("Book of 1337", {
+	ent = "item_book_elite",
+	model = "models/props_lab/binderredlabel.mdl",
+	price = 120000,
+	max = 2,
+	allowed = {TEAM_SCHOLAR},
+	cmd = "buybookelite"
+})
