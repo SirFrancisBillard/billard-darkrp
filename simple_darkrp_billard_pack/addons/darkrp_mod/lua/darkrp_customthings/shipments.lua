@@ -257,3 +257,135 @@ noship = false,
 allowed = {TEAM_BLACKMARKET}
 })
 ]]
+
+DarkRP.createShipment("Bugbait", {
+model = "models/weapons/w_bugbait.mdl",
+entity = "weapon_bugbait",
+price = 50,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Crowbar", {
+model = "models/weapons/w_crowbar.mdl",
+entity = "weapon_crowbar",
+price = 750,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Stunstick", {
+model = "models/weapons/w_stunbaton.mdl",
+entity = "weapon_stunstick",
+price = 1000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Pistol", {
+model = "models/weapons/w_pistol.mdl",
+entity = "weapon_pistol",
+price = 4000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Magnum", {
+model = "models/weapons/w_357.mdl",
+entity = "weapon_357",
+price = 4000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("SMG", {
+model = "models/weapons/w_smg1.mdl",
+entity = "weapon_smg1",
+price = 16000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Pulse Rifle", {
+model = "models/weapons/w_irifle.mdl",
+entity = "weapon_ar2",
+price = 20000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Shotgun", {
+model = "models/weapons/w_shotgun.mdl",
+entity = "weapon_shotgun",
+price = 2000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Crossbow", {
+model = "models/weapons/w_crossbow.mdl",
+entity = "weapon_crossbow",
+price = 2000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("Grenade", {
+model = "models/weapons/w_grenade.mdl",
+entity = "weapon_frag",
+price = 12000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("SLAM", {
+model = "models/weapons/w_slam.mdl",
+entity = "weapon_slam",
+price = 20000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
+
+DarkRP.createShipment("RPG", {
+model = "models/weapons/w_rocket_launcher.mdl",
+entity = "weapon_rpg",
+price = 32000,
+amount = 10,
+seperate = false,
+pricesep = nil,
+noship = false,
+allowed = {TEAM_BLACKMARKET}
+})
