@@ -159,3 +159,14 @@ DarkRP.createEntity("First Aid Kit", {
 	allowed = {TEAM_DOCTOR},
 	cmd = "buyfirstaidkit"
 })
+
+--DJ ITEMS
+
+DarkRP.createEntity("Bass Machine", {
+	ent = "prop_thumper",
+	model = "models/props_combine/combinethumper002.mdl",
+	price = 4000,
+	max = 1,
+	allowed = {TEAM_DJ},
+	cmd = "buybassmachine"
+})
