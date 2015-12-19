@@ -37,7 +37,7 @@ TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
     color = Color(0, 255, 150, 255),
     model = {"models/player/soldier_stripped.mdl"},
     description = [[You are a drug dealer.
-	You sell drugs to the public.]],
+	You sell drugs to the public because your a druggy.]],
     weapons = {""},
     command = "drugdealer",
     max = 2,
@@ -57,8 +57,8 @@ TEAM_DOCTOR = DarkRP.createJob("Doctor", {
     	Right click with the Medical Kit to heal yourself.]],
     weapons = {"med_kit"},
     command = "doctor",
-    max = 4,
-    salary = 200,
+    max = 5,
+    salary = 250,
     admin = 0,
     vote = false,
     hasLicense = false,
@@ -175,7 +175,7 @@ TEAM_GUARD = DarkRP.createJob("Guard", {
     weapons = {"weapon_p2282", "stunstick", "weaponchecker"},
     command = "guard",
     max = 4,
-    salary = 800,
+    salary = 850,
     admin = 0,
     vote = false,
     hasLicense = true,
@@ -220,7 +220,7 @@ TEAM_SUPERHOBO = DarkRP.createJob("Super Hobo", {
     weapons = {"weapon_bugbait", "weapon_glock2", "lockpick"},
     command = "superhobo",
     max = 1,
-    salary = 1,
+    salary = 2,
     admin = 0,
     vote = false,
     hasLicense = false,
@@ -273,8 +273,8 @@ TEAM_SCHOLAR = DarkRP.createJob("Scholar", {
 	You earn more per day due to your degree.]],
     weapons = {"unarrest_baton"},
     command = "scholar",
-    max = 4,
-    salary = 400,
+    max = 3,
+    salary = 500,
     admin = 0,
     vote = false,
     hasLicense = false,
@@ -301,7 +301,7 @@ TEAM_CARDEALER = DarkRP.createJob("Car Dealer", {
 TEAM_AMERICANSOLDIER = DarkRP.createJob("American Soldier", {
     color = Color(0, 0, 255, 255),
     model = "models/player/dod_american.mdl",
-    description = [[You must fight the Germans and win control over the city.
+    description = [[You must fight the Germans and win control over the city, Murica.
 	You may kill in public.]],
     weapons = {"weapon_ak472"},
     command = "americansoldier",
@@ -317,7 +317,7 @@ TEAM_AMERICANSOLDIER = DarkRP.createJob("American Soldier", {
 TEAM_GERMANSOLDIER = DarkRP.createJob("German Soldier", {
     color = Color(255, 0, 0, 255),
     model = "models/player/dod_german.mdl",
-    description = [[You must fight the Americans and win control over the city.
+    description = [[You must fight the Americans and win control over the city, Nazis.
 	You may kill in public.]],
     weapons = {"weapon_ak472"},
     command = "germansoldier",
@@ -431,4 +431,19 @@ TEAM_SNOWMEMBER = DarkRP.createJob("Snow Gang Member", {
     hasLicense = false,
     candemote = false,
     category = "Gangsters",
+})
+
+TEAM_HOBOSUPPLIER = DarkRP.createJob("Hobo Supplier", {
+    color = Color(80, 45, 0, 255),
+    model = "models/player/corpse1.mdl",
+    description = [[You are a Hobo Supplier.
+	You sell Bad Weapons to your fellow hobos.]],
+    weapons = {"weapon_bugbait"},
+    command = "gundealer",
+    max = 2,
+    salary = 10,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    category = "Citizens",
 })
