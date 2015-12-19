@@ -37,7 +37,7 @@ TEAM_DRUG = DarkRP.createJob("Drug Dealer", {
     color = Color(0, 255, 150, 255),
     model = {"models/player/soldier_stripped.mdl"},
     description = [[You are a drug dealer.
-	You sell drugs to the public because your a druggy.]],
+	You sell drugs to the public because you're a druggy.]],
     weapons = {""},
     command = "drugdealer",
     max = 2,
@@ -437,9 +437,9 @@ TEAM_HOBOSUPPLIER = DarkRP.createJob("Hobo Supplier", {
     color = Color(80, 45, 0, 255),
     model = "models/player/corpse1.mdl",
     description = [[You are a Hobo Supplier.
-	You sell Bad Weapons to your fellow hobos.]],
+	You sell crappy Weapons to your fellow hobos.]],
     weapons = {"weapon_bugbait"},
-    command = "gundealer",
+    command = "hobosupplier",
     max = 2,
     salary = 10,
     admin = 0,
