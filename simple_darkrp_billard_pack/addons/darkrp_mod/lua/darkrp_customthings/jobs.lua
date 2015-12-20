@@ -262,6 +262,38 @@ TEAM_MECHANIC = DarkRP.createJob("Mechanic", {
     category = "Citizens",
 })
 
+TEAM_ILLUMINATILEADER = DarkRP.createJob("Illuminati Leader", {
+    color = Color(0, 255, 0, 255),
+    model = "models/player/leet.mdl",
+    description = [[You lead the Illuminati.
+    	Keep secrets and make sure you never get caught.]],
+    weapons = {""},
+    command = "illuminatileader",
+    max = 1,
+    salary = 1200,
+    admin = 0,
+    vote = true,
+    hasLicense = false,
+    candemote = false,
+    category = "Citizens",
+})
+
+TEAM_ILLUMINATI = DarkRP.createJob("Illuminati Member", {
+    color = Color(0, 255, 0, 255),
+    model = "models/player/kleiner.mdl",
+    description = [[You are a part of the Illuminati.
+    	Keep secrets and make sure you never get caught.]],
+    weapons = {""},
+    command = "illuminati",
+    max = 6,
+    salary = 600,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Citizens",
+})
+
 TEAM_SCHOLAR = DarkRP.createJob("Scholar", {
     color = Color(0, 150, 255, 255),
     model = "models/player/gman_high.mdl",
