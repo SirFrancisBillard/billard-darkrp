@@ -246,6 +246,21 @@ TEAM_DJ = DarkRP.createJob("DJ", {
     category = "Citizens",
 })
 
+TEAM_BILLARDKILLER = DarkRP.createJob("Billard Killer", {
+    color = Color(122, 122, 122, 255),
+    model = "models/player/group01/Male_09.mdl",
+    description = [[IN THIS JOB ALL YOU CAN DO IS KILL SIR FRANCIS BILLARD IF YOU DO ANYTHING ELSE YOU WILL BE WARNED ALL YOU CAN DO IS KILL BILLARD]],
+    weapons = {"m9k_minigun"},
+    command = "billardkiller",
+    max = 1,
+    salary = 12,
+    admin = 0,
+    vote = true,
+    hasLicense = false,
+    candemote = false,
+    category = "Citizens",
+})
+
 TEAM_MECHANIC = DarkRP.createJob("Mechanic", {
     color = Color(0, 150, 255, 255),
     model = "models/player/barney.mdl",
